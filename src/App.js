@@ -2,7 +2,10 @@ import { createStore } from 'redux';
 import reducer from './reducer/index';
 import * as actions from './actions/index';
 
-const store = createStore(reducer);
+
+
+export const store = createStore(reducer);
+
 
 export default function App() {
 
